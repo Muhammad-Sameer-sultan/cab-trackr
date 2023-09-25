@@ -11,7 +11,7 @@ const Home = () => {
        <div id="carouselExample" className="carousel slide">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={slider1} className="d-block w-100" alt="..."/>
+      <img src={slider1} className="d-block w-100 "  alt="..."/>
     </div>
     <div className="carousel-item">
       <img src={slider2} className="d-block w-100" alt="..."/>
