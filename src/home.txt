@@ -1,0 +1,353 @@
+import React from 'react';
+
+import LogoImage from 'src/assets/images/Home_logo.png';
+
+import PexelsTimSamuel58349Image from 'src/assets/images/Home_pexels_tim_samuel_5834937_1.png';
+
+import Footer1Image from 'src/assets/images/Home_footer_1.png';
+
+import PocketFriendly1Image from 'src/assets/images/Home_pocket_friendly_1.png';
+
+import WhyChoose1Image from 'src/assets/images/Home_why_choose_1.png';
+
+import Rates1Image from 'src/assets/images/Home_rates_1.png';
+
+import UserFreindly1Image from 'src/assets/images/Home_user_freindly_1.png';
+
+import {
+  styled
+} from '@mui/material/styles';
+
+const Home1 = styled("div")({
+  backgroundColor: `rgba(255, 255, 255, 1)`,
+  display: `flex`,
+  position: `relative`,
+  isolation: `isolate`,
+  flexDirection: `row`,
+  width: `1600px`,
+  height: `4178px`,
+  justifyContent: `flex-start`,
+  alignItems: `flex-start`,
+  padding: `0px`,
+  boxSizing: `border-box`,
+  overflow: `hidden`,
+});
+
+const Navbar = styled("div")({
+  display: `flex`,
+  position: `absolute`,
+  isolation: `isolate`,
+  flexDirection: `row`,
+  justifyContent: `flex-start`,
+  alignItems: `flex-start`,
+  padding: `0px`,
+  boxSizing: `border-box`,
+  width: `1600px`,
+  height: `86px`,
+  left: `0px`,
+  top: `0px`,
+  overflow: `hidden`,
+});
+
+const Home2 = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `32px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  width: `95px`,
+  position: `absolute`,
+  left: `578px`,
+  top: `37px`,
+});
+
+const BookCab = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `32px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  width: `168px`,
+  position: `absolute`,
+  left: `721px`,
+  top: `37px`,
+});
+
+const Contact = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `32px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  width: `130px`,
+  position: `absolute`,
+  left: `929px`,
+  top: `37px`,
+});
+
+const DriverPassenger = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `32px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  width: `301px`,
+  position: `absolute`,
+  left: `1275px`,
+  top: `37px`,
+});
+
+const Logo = styled("img")({
+  height: `128px`,
+  width: `269px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `23px`,
+  top: `22px`,
+});
+
+const PexelsTimSamuel58349 = styled("img")({
+  height: `763.64px`,
+  width: `1500px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `46px`,
+  top: `120px`,
+});
+
+const Footer = styled("div")({
+  display: `flex`,
+  position: `absolute`,
+  isolation: `isolate`,
+  flexDirection: `row`,
+  justifyContent: `flex-start`,
+  alignItems: `flex-start`,
+  padding: `0px`,
+  boxSizing: `border-box`,
+  width: `1600px`,
+  height: `594px`,
+  left: `0px`,
+  top: `3500px`,
+});
+
+const Footer1 = styled("img")({
+  height: `594px`,
+  width: `1600px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `0px`,
+  top: `0px`,
+});
+
+const Rectangle17 = styled("div")({
+  backgroundColor: `rgba(245, 245, 245, 1)`,
+  width: `180px`,
+  height: `40px`,
+  position: `absolute`,
+  left: `32px`,
+  top: `176px`,
+});
+
+const CabTrackr = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Itim`,
+  fontWeight: `400`,
+  fontSize: `32px`,
+  letterSpacing: `0.64px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `56px`,
+  top: `178px`,
+});
+
+const Rectangle19 = styled("div")({
+  backgroundColor: `rgba(245, 245, 245, 1)`,
+  width: `171px`,
+  height: `28px`,
+  position: `absolute`,
+  left: `1098px`,
+  top: `174px`,
+});
+
+const UpToDate = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Itim`,
+  fontWeight: `400`,
+  fontSize: `28px`,
+  letterSpacing: `0.56px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `1119px`,
+  top: `163px`,
+});
+
+const Rectangle18 = styled("div")({
+  backgroundColor: `rgba(245, 245, 245, 1)`,
+  width: `496px`,
+  height: `116px`,
+  position: `absolute`,
+  left: `1084px`,
+  top: `337px`,
+});
+
+const PocketFriendly1 = styled("img")({
+  height: `636.51px`,
+  width: `1600px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `0px`,
+  top: `2107px`,
+});
+
+const WhyChoose1 = styled("img")({
+  height: `658px`,
+  width: `1600px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `0px`,
+  top: `2761px`,
+});
+
+const Rates1 = styled("img")({
+  height: `500.69px`,
+  width: `1600px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `-4px`,
+  top: `952px`,
+});
+
+const UserFreindly1 = styled("img")({
+  height: `651.44px`,
+  width: `1600px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `0px`,
+  top: `1438px`,
+});
+
+const WhyCabTrackrSpan1 = styled("span")({
+  whiteSpace: `pre-wrap`,
+  color: `rgba(0, 0, 0, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `60px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+});
+
+const WhyCabTrackrSpan2 = styled("span")({
+  whiteSpace: `pre-wrap`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `60px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+});
+
+const WhyCabTrackr = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(0, 0, 0, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `60px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `533px`,
+  top: `1438px`,
+});
+
+
+function Home() {
+  return (
+    <Home1>
+      <Navbar>
+        <Home2>
+          {`Home   `}
+        </Home2>
+        <BookCab>
+          {`Book Cab`}
+        </BookCab>
+        <Contact>
+          {`Contact`}
+        </Contact>
+        <DriverPassenger>
+          {`Driver  |  Passenger`}
+        </DriverPassenger>
+      </Navbar>
+      <Logo src={LogoImage} loading='lazy' alt={"logo"}/>
+      <PexelsTimSamuel58349 src={PexelsTimSamuel58349Image} loading='lazy' alt={"pexels-tim-samuel-5834937 1"}/>
+      <Footer>
+        <Footer1 src={Footer1Image} loading='lazy' alt={"footer 1"}/>
+        <Rectangle17>
+        </Rectangle17>
+        <CabTrackr>
+          {`Cab Trackr`}
+        </CabTrackr>
+        <Rectangle19>
+        </Rectangle19>
+        <UpToDate>
+          {`Up to date`}
+        </UpToDate>
+        <Rectangle18>
+        </Rectangle18>
+      </Footer>
+      <PocketFriendly1 src={PocketFriendly1Image} loading='lazy' alt={"pocket friendly 1"}/>
+      <WhyChoose1 src={WhyChoose1Image} loading='lazy' alt={"why choose 1"}/>
+      <Rates1 src={Rates1Image} loading='lazy' alt={"rates 1"}/>
+      <UserFreindly1 src={UserFreindly1Image} loading='lazy' alt={"user freindly 1"}/>
+      <WhyCabTrackr>
+        <WhyCabTrackrSpan1 >{`Why`}</WhyCabTrackrSpan1>
+        <WhyCabTrackrSpan2 >{` Cab Trackr`}</WhyCabTrackrSpan2>
+      </WhyCabTrackr>
+    </Home1>);
+
+  }
+
+export default Home;
+
+  

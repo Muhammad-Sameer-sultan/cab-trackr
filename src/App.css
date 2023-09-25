@@ -1,0 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital@1&display=swap');
+
+:root{
+ --color-primary: rgba(68, 156, 205, 1);
+ 
+ font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Courgette', cursive;
+}
+.navbar-brand img{
+    width: 6rem;
+}

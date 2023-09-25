@@ -1,0 +1,307 @@
+import React from 'react';
+
+import LogoImage from 'src/assets/images/Driver_logo.png';
+
+import Footer1Image from 'src/assets/images/Driver_footer_1.png';
+
+import GooglePage1Image from 'src/assets/images/Driver_google_page_1.png';
+
+import {
+  styled
+} from '@mui/material/styles';
+
+const Driver1 = styled("div")({
+  backgroundColor: `rgba(255, 255, 255, 1)`,
+  display: `flex`,
+  position: `relative`,
+  isolation: `isolate`,
+  flexDirection: `row`,
+  width: `1600px`,
+  height: `3092px`,
+  justifyContent: `flex-start`,
+  alignItems: `flex-start`,
+  padding: `0px`,
+  boxSizing: `border-box`,
+  overflow: `hidden`,
+});
+
+const Navbar = styled("div")({
+  display: `flex`,
+  position: `absolute`,
+  isolation: `isolate`,
+  flexDirection: `row`,
+  justifyContent: `flex-start`,
+  alignItems: `flex-start`,
+  padding: `0px`,
+  boxSizing: `border-box`,
+  width: `1600px`,
+  height: `86px`,
+  left: `0px`,
+  top: `0px`,
+  overflow: `hidden`,
+});
+
+const Home = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `32px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  width: `95px`,
+  position: `absolute`,
+  left: `578px`,
+  top: `37px`,
+});
+
+const BookCab = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `32px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  width: `168px`,
+  position: `absolute`,
+  left: `721px`,
+  top: `37px`,
+});
+
+const Contact = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `32px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  width: `130px`,
+  position: `absolute`,
+  left: `929px`,
+  top: `37px`,
+});
+
+const ProfileLogout = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `400`,
+  fontSize: `32px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  width: `238px`,
+  position: `absolute`,
+  left: `1332px`,
+  top: `37px`,
+});
+
+const Logo = styled("img")({
+  height: `128px`,
+  width: `269px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `23px`,
+  top: `22px`,
+});
+
+const Footer = styled("div")({
+  display: `flex`,
+  position: `absolute`,
+  isolation: `isolate`,
+  flexDirection: `row`,
+  justifyContent: `flex-start`,
+  alignItems: `flex-start`,
+  padding: `0px`,
+  boxSizing: `border-box`,
+  width: `1600px`,
+  height: `594px`,
+  left: `0px`,
+  top: `2498px`,
+});
+
+const Footer1 = styled("img")({
+  height: `594px`,
+  width: `1600px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `0px`,
+  top: `0px`,
+});
+
+const Rectangle17 = styled("div")({
+  backgroundColor: `rgba(245, 245, 245, 1)`,
+  width: `180px`,
+  height: `40px`,
+  position: `absolute`,
+  left: `32px`,
+  top: `176px`,
+});
+
+const CabTrackr = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Itim`,
+  fontWeight: `400`,
+  fontSize: `32px`,
+  letterSpacing: `0.64px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `56px`,
+  top: `178px`,
+});
+
+const Rectangle19 = styled("div")({
+  backgroundColor: `rgba(245, 245, 245, 1)`,
+  width: `171px`,
+  height: `28px`,
+  position: `absolute`,
+  left: `1098px`,
+  top: `174px`,
+});
+
+const UpToDate = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Itim`,
+  fontWeight: `400`,
+  fontSize: `28px`,
+  letterSpacing: `0.56px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `1119px`,
+  top: `163px`,
+});
+
+const Rectangle18 = styled("div")({
+  backgroundColor: `rgba(245, 245, 245, 1)`,
+  width: `496px`,
+  height: `116px`,
+  position: `absolute`,
+  left: `1084px`,
+  top: `337px`,
+});
+
+const DriverPortalSpan1 = styled("span")({
+  whiteSpace: `pre-wrap`,
+  color: `rgba(0, 0, 0, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Itim`,
+  fontWeight: `400`,
+  fontSize: `60px`,
+  letterSpacing: `1.2px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+});
+
+const DriverPortalSpan2 = styled("span")({
+  whiteSpace: `pre-wrap`,
+  color: `rgba(68, 156, 205, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Itim`,
+  fontWeight: `400`,
+  fontSize: `60px`,
+  letterSpacing: `1.2px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+});
+
+const DriverPortal = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(0, 0, 0, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Itim`,
+  fontWeight: `400`,
+  fontSize: `60px`,
+  letterSpacing: `1.2px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  width: `363px`,
+  height: `79px`,
+  position: `absolute`,
+  left: `673px`,
+  top: `187px`,
+});
+
+const GooglePage1 = styled("img")({
+  height: `828px`,
+  width: `1511px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `44px`,
+  top: `367px`,
+});
+
+
+function Driver() {
+  return (
+    <Driver1>
+      <Navbar>
+        <Home>
+          {`Home   `}
+        </Home>
+        <BookCab>
+          {`Book Cab`}
+        </BookCab>
+        <Contact>
+          {`Contact`}
+        </Contact>
+        <ProfileLogout>
+          {`Profile | Logout`}
+        </ProfileLogout>
+      </Navbar>
+      <Logo src={LogoImage} loading='lazy' alt={"logo"}/>
+      <Footer>
+        <Footer1 src={Footer1Image} loading='lazy' alt={"footer 1"}/>
+        <Rectangle17>
+        </Rectangle17>
+        <CabTrackr>
+          {`Cab Trackr`}
+        </CabTrackr>
+        <Rectangle19>
+        </Rectangle19>
+        <UpToDate>
+          {`Up to date`}
+        </UpToDate>
+        <Rectangle18>
+        </Rectangle18>
+      </Footer>
+      <DriverPortal>
+        <DriverPortalSpan1 >{`Driver`}</DriverPortalSpan1>
+        <DriverPortalSpan2 >{` Portal`}</DriverPortalSpan2>
+      </DriverPortal>
+      <GooglePage1 src={GooglePage1Image} loading='lazy' alt={"google page 1"}/>
+    </Driver1>);
+
+  }
+
+export default Driver;
+
+  
