@@ -21,11 +21,9 @@ const App=() =>{
       bgSecondary: "rgb(253,217,67)",
       gradient: "",
       shadow:"",
-      media: { 
-        mobile: "768px", tab: "998px"
-      }
-
-
+    },
+    media: { 
+      extraLarge: "1200px", large: "992px",medium: "768px",small: "576px"
     }
   }
 

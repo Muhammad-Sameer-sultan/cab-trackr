@@ -1,8 +1,9 @@
 import React from "react";
-import { BsFillBuildingsFill } from "react-icons/bs";
+import { BsFillBuildingsFill,BsFillHandThumbsUpFill } from "react-icons/bs";
 import { GrAnalytics } from "react-icons/gr";
 import styled from "styled-components";
-import { MdOutlineElectricBolt } from "react-icons/md";
+import { MdOutlineElectricBolt ,MdGroup} from "react-icons/md";
+import { FaAddressCard } from "react-icons/fa";
 import slider3 from "../../src/assets/slider3.jpg";
 
 const Figure = styled.div`
@@ -51,11 +52,20 @@ const Figure = styled.div`
   .reviews {
     background: rgb(245, 245, 245);
     h5{
-        margin: 10rem 0 ;
+        margin: 5rem 0 ;
+        padding: 12rem 0;
         text-align: center;
     }
     .carousel-indicators button{
         background-color: black
+    }
+  }
+  @media screen and (max-width: ${({theme})=>theme.media.medium}) {
+    .chooseCardContainer{
+      flex-direction: column;
+      .chooseCard{
+        width: 60%;
+      }
     }
   }
 `;
@@ -67,7 +77,7 @@ const Figures = () => {
         <h2 className="container-fluid text-center p-4 mb-5">
           Global mobility system driving communities forward
         </h2>
-        <div className="  d-flex justify-content-center align-items-center gap-5 ">
+        <div className="  d-flex justify-content-center align-items-center flex-wrap gap-5 ">
           <div className="figuresCard ">
             <BsFillBuildingsFill className="icon" />
             <h3>250+</h3>
@@ -91,11 +101,11 @@ const Figures = () => {
       </div>
       <div className="choose mt-5 bg-dark">
         <h2 className="px-5 py-3">So, why choose us?</h2>
-        <div className="chooseCardContainer d-flex justify-content-evenly align-items-center gap-5">
+        <div className="chooseCardContainer d-flex justify-content-evenly align-items-center  gap-5">
           <div className="chooseCard my-5">
             <div className="offerIcon-container">
              
-              <BsFillBuildingsFill className="offerIcon" />
+              <BsFillHandThumbsUpFill className="offerIcon" />
             </div>
             <h3 className="my-3">Offer your fare</h3>
             <p> Accept offers that suit you best</p>
@@ -103,15 +113,15 @@ const Figures = () => {
           <div className="chooseCard my-5">
             <div className="offerIcon-container">
             
-              <BsFillBuildingsFill className="offerIcon" />
+              <FaAddressCard className="offerIcon" />
             </div>
             <h3 className="my-3">Choose a driver</h3>
             <p> The driver’s rating, car, and reviews will help you decide</p>
           </div>
           <div className="chooseCard my-5">
             <div className="offerIcon-container">
-              {" "}
-              <BsFillBuildingsFill className="offerIcon" />
+              
+              <MdGroup className="offerIcon" />
             </div>
             <h3 className="my-3">Save money on rides</h3>
             <p>
@@ -121,7 +131,7 @@ const Figures = () => {
           </div>
         </div>
         <h2 className="px-5 py-3">We care about safety</h2>
-        <div className="chooseCardContainer container d-flex justify-content-center align-items-center gap-5 flex-wrap">
+        <div className="chooseCardContainer container d-flex justify-content-center align-items-center gap-5  flex-wrap">
           <img className="mb-5 img-fluid" src={slider3} alt="" />
           <div className=" d-flex  gap-3 text-light flex-column">
             <div>
@@ -179,7 +189,7 @@ const Figures = () => {
 
       <div className="reviews">
         <h3 className="text-center p-5">Read our Reviews</h3>
-        <div id="carouselExampleIndicators" className="container carousel slide mx-5">
+        <div id="carouselExampleIndicators" className=" carousel slide mx-5">
           <div className="carousel-indicators">
             <button
               type="button"
@@ -202,37 +212,17 @@ const Figures = () => {
               aria-label="Slide 3"
             ></button>
           </div>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <h5 className="d-block w-100 conatiner">
+          <div className="">
+            
+              <h5 className="d-block  conatiner">
                 I've been a night time cabbie since 5/5/05 ..This App is
                 Awesome! :) I especially love the text message that
                 automatically gets sent out to the customers cell phones ..
               </h5>
-            </div>
-            <div className="carousel-item">
-              <h5 className="d-block w-100">
-                I've been a night time cabbie since 5/5/05 ..This App is
-                Awesome! :) I especially love the text message that
-                automatically gets sent out to the customers cell phones ..
-              </h5>
-            </div>
-            <div className="carousel-item">
-              <h5 className="d-block w-100">
-                I've been a night time cabbie since 5/5/05 ..This App is
-                Awesome! :) I especially love the text message that
-                automatically gets sent out to the customers cell phones ..
-              </h5>
-            </div>
+           
+           
           </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
+        
         </div>
 
       </div>

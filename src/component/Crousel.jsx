@@ -9,7 +9,7 @@ const CrouselStyle = styled.div`
   .slider-overlay {
     position: absolute;
     z-index: 1;
-    top: 10%;
+    top: 2rem;
     left: 9%;
     width: 32%;
     line-height: 2;
@@ -54,6 +54,16 @@ const CrouselStyle = styled.div`
     background: ${({ theme }) => theme.colors.black};
     box-shadow: 0 0 1rem white;
   }
+  @media screen and (max-width: ${({theme})=>theme.media.large}) {
+    .slider-overlay{
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      padding: 8rem;
+      
+    }
+  }
   
 `;
 
@@ -64,7 +74,7 @@ const Crousel = () => {
       {/* Crousel start */}
       <div
         id="carouselExampleIndicators"
-        className="carousel slide position-relative"
+        className="carousel slide position-relative overflow-hidden"
       >
         <div className="slider-overlay ">
           <h2>
