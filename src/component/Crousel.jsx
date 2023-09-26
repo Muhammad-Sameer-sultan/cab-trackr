@@ -15,7 +15,7 @@ const CrouselStyle = styled.div`
     line-height: 2;
     color: white;
     background: rgba(0, 0, 0, 0.7);
-    padding: 1rem;
+    padding: 5rem;
     font-size: 2rem;
     h2 {
       font-size: 3.2rem;
@@ -66,7 +66,7 @@ const Crousel = () => {
         id="carouselExampleIndicators"
         className="carousel slide position-relative"
       >
-        <div className="slider-overlay p-4">
+        <div className="slider-overlay ">
           <h2>
             Best prices for rides in All over Pakistan. Packed in one place.
           </h2>
@@ -101,18 +101,19 @@ const Crousel = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
-              src="https://www.mindinventory.com/blog/wp-content/uploads/2022/10/taxi-booking-app.jpg"
-              className="d-block w-100"
-              alt=""
+          <img src={slider2} className="d-block w-100" alt="..." />
+
+          </div>
+          <div className="carousel-item">
+          <img
+            src="https://www.ezidrive.in/blog/wp-content/uploads/2019/06/blog-1.jpg"
+            className="d-block w-100"
+            alt=""
             />
           </div>
           <div className="carousel-item">
-            <img src={slider2} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
             <img
-              src="https://www.ezidrive.in/blog/wp-content/uploads/2019/06/blog-1.jpg"
+            src="https://www.mindinventory.com/blog/wp-content/uploads/2022/10/taxi-booking-app.jpg"
               className="d-block w-100"
               alt="..."
             />

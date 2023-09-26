@@ -19,6 +19,9 @@ const MainHeader = styled.nav`
     margin: 0 1.5rem;
     color: ${({ theme }) => theme.colors.black};
   }
+  .navbar-nav a:hover{
+    color: ${({ theme }) => theme.colors.primaryYellow};
+  }
 
   .dropdown button {
     background: ${({ theme }) => theme.colors.white};
@@ -56,7 +59,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Book Cab
+                  Passanger
                 </a>
               </li>
               <li className="nav-item">

@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from './GolbalStyle'
 import Footer from './component/Footer'
+import Passanger from './pages/Passanger'
 
 
 
@@ -34,6 +35,7 @@ const App=() =>{
       <GlobalStyle/>
     <Navbar />
     <Home  />
+    <Passanger/>
     <Footer/>
     </ThemeProvider>
          </>
