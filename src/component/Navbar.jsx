@@ -3,6 +3,7 @@ import cabLogo from "../assets/logo.png";
 import styled from "styled-components";
 import { BiUserCircle } from "react-icons/bi";
 import { GrLanguage } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 const MainHeader = styled.nav`
   .navbar-collapse {
@@ -53,14 +54,14 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#">
+                <Link className="nav-link " aria-current="page" to="/home">
                   Home
-                </a>
+                </Link>  
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/passanger">
                   Passanger
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">

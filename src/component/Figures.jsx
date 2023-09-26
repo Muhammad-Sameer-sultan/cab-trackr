@@ -51,7 +51,7 @@ const Figure = styled.div`
   .reviews {
     background: rgb(245, 245, 245);
     h5{
-        margin: 10rem;
+        margin: 10rem 0 ;
         text-align: center;
     }
     .carousel-indicators button{
@@ -121,7 +121,7 @@ const Figures = () => {
           </div>
         </div>
         <h2 className="px-5 py-3">We care about safety</h2>
-        <div className="chooseCardContainer container d-flex justify-content-center align-items-center gap-5 ">
+        <div className="chooseCardContainer container d-flex justify-content-center align-items-center gap-5 flex-wrap">
           <img className="mb-5 img-fluid" src={slider3} alt="" />
           <div className=" d-flex  gap-3 text-light flex-column">
             <div>
@@ -204,7 +204,7 @@ const Figures = () => {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <h5 className="d-block w-100">
+              <h5 className="d-block w-100 conatiner">
                 I've been a night time cabbie since 5/5/05 ..This App is
                 Awesome! :) I especially love the text message that
                 automatically gets sent out to the customers cell phones ..
@@ -222,16 +222,16 @@ const Figures = () => {
                 I've been a night time cabbie since 5/5/05 ..This App is
                 Awesome! :) I especially love the text message that
                 automatically gets sent out to the customers cell phones ..
-              </h5>{" "}
+              </h5>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
         </div>
 

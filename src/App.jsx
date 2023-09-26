@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './component/Navbar'
 import Home from './pages/Home'
 import { ThemeProvider } from 'styled-components'
@@ -30,13 +31,18 @@ const App=() =>{
 
   return (
     <>
-    
     <ThemeProvider theme={theme }>
       <GlobalStyle/>
     <Navbar />
-    <Home  />
-    <Passanger/>
+    {/* <Router> */}
+      <Routes>
+      <Route path="/home"  key="home" element={<Home/>} />
+  <Route path="/passanger" key="passanger" element={<Passanger/>} />
+ 
+
+      </Routes>
     <Footer/>
+    {/* </Router> */}
     </ThemeProvider>
          </>
   
