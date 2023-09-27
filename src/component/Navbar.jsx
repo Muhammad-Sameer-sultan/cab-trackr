@@ -82,9 +82,9 @@ const Navbar = () => {
                   </button>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link className="dropdown-item" to="/signin">
                         Passangr
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />

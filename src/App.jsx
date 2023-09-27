@@ -6,6 +6,8 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from './GolbalStyle'
 import Footer from './component/Footer'
 import Passanger from './pages/Passanger'
+import SignUp from './component/SignUp';
+import SignIn from './component/SignIn';
 
 
 
@@ -36,9 +38,12 @@ const App=() =>{
       <Routes>
       <Route path="/home"  key="home" element={<Home/>} />
   <Route path="/passanger" key="passanger" element={<Passanger/>} />
+  <Route path="/signin" key="signin" element={<SignIn/>} />
+  <Route path="/signup" key="signup" element={<SignUp/>} />
  
 
       </Routes>
+      <Routes></Routes>
     <Footer/>
     {/* </Router> */}
     </ThemeProvider>

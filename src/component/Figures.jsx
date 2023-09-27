@@ -53,7 +53,7 @@ const Figure = styled.div`
     background: rgb(245, 245, 245);
     h5{
         margin: 5rem 0 ;
-        padding: 12rem 0;
+        padding: 8rem 0;
         text-align: center;
     }
     .carousel-indicators button{
@@ -67,6 +67,13 @@ const Figure = styled.div`
         width: 60%;
       }
     }
+    .reviews {
+    
+      h5{
+        
+          padding: 12rem 0;
+         
+      }
   }
 `;
 
@@ -99,7 +106,7 @@ const Figures = () => {
           </div>
         </div>
       </div>
-      <div className="choose mt-5 bg-dark">
+      <div className="choose mt-5 bg-dark pb-5">
         <h2 className="px-5 py-3">So, why choose us?</h2>
         <div className="chooseCardContainer d-flex justify-content-evenly align-items-center  gap-5">
           <div className="chooseCard my-5">
