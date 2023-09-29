@@ -6,16 +6,16 @@ import Person2 from "../images/team/2.png";
 import Person3 from "../images/team/3.png";
 import Person4 from "../images/team/4.png";
 import Person5 from "../images/team/5.png";
-import Person6 from "../images/team/6.png";
+
 
 function Team() {
   const teamPpl = [
-    { img: Person1, name: "Luke Miller", job: "Salesman" },
-    { img: Person2, name: "Michael Diaz", job: "Business Owner" },
-    { img: Person3, name: "Briana Ross", job: "Photographer" },
-    { img: Person4, name: "Lauren Rivera", job: "Car Detailist" },
-    { img: Person5, name: "Martin Rizz", job: "Mechanic" },
-    { img: Person6, name: "Caitlyn Hunt", job: "Menager" },
+    { img: Person1, name: "Muhammad Sameer", job: "FrontEnd Developer" },
+    { img: Person2, name: "Abu Huraiara", job: "Frontend" },
+    { img: Person3, name: "Aisha", job: "Team Lead" },
+    { img: Person4, name: "Laiba", job: "Project Manager" },
+    { img: Person5, name: "Muhammad Hassan", job: "Backend Developer" },
+    { img: Person1, name: "Usama khan", job: "Backend Developer" },
   ];
   return (
     <>
