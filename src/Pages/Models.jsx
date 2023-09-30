@@ -173,7 +173,7 @@ function Models() {
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; 
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <IconCar />

@@ -1,0 +1,102 @@
+
+  .main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .main-box {
+    width: 80%;
+    height: 80%;
+    opacity: 0.9;
+  }
+  #signin-title img {
+    max-width: 80%;
+  }
+
+  .main .main-box #signup-box {
+    font-size: 0.8em;
+  }
+  .main .main-box #signup-box h2 {
+    font-size: 2rem;
+    color: rgb(56, 61, 147);
+    font-weight: 600;
+  }
+  .main .main-box .title-box {
+    color: #F6F7FB;
+    background: rgb(56, 61, 147);
+    padding: 2rem 4rem;
+    text-align: center;
+  }
+  .main .main-box .title-box h2,
+  .main .main-box .title-box h4 {
+    font-family: "Eczar", serif;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .main .main-box .title-box h4 {
+    font-size: 2rem;
+    color: #FE7600;
+  }
+  .main .main-box .title-box p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+  }
+  .main .main-box .title-box #signin-title {
+    /* background: linear-gradient(to bottom,rgba(56, 61, 147,0.5),rgba(56, 61, 147,0.5)),url(../images/signin.jfif) no-repeat center; */
+  }
+  .main .main-box .title-box #signp-title h2 {
+    font-size: 2rem;
+  }
+  .main .main-box .title-box #signp-title h4 {
+    font-size: 1rem;
+  }
+  .main .main-box .title-box #signp-title p {
+    font-size: 1rem;
+  }
+  .main .main-box .form-box {
+    background: #ffd5d5;
+    padding: 2rem 4rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+  }
+  .main .main-box .form-box h2 {
+    font-family: "Eczar", serif;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(56, 61, 147);
+    font-weight: 600;
+    /* background: #000; */
+  }
+  .main .main-box .form-box .forget {
+    cursor: pointer;
+    color: #FE7600;
+    letter-spacing: 0.3rem;
+    text-decoration: underline;
+  }
+  .main .main-box .form-box .btn {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background: #FE7600;
+    border: none;
+  }
+  .main .main-box .form-box .signup_click span {
+    color: #FE7600;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .main .main-box .form-box #signup-btn {
+    width: 100%;
+    border-radius: 3rem;
+    color: #FFFFFF;
+    background: #FE7600;
+    border: none;
+    font-weight: 500;
+  }
+  .main .main-box .form-box #signup-btn:hover,
+  #signin-btn:hover {
+    background: rgb(56, 61, 147);
+  }
