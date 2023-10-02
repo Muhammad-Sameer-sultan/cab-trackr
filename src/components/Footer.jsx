@@ -16,7 +16,7 @@ function Footer() {
               </li>
               <li>
                 <a href="tel:123456789">
-                  <IconPhoneCall /> &nbsp; (+92) 3351-332645
+                  <IconPhoneCall /> &nbsp; (123) -456-789
                 </a>
               </li>
 
@@ -26,7 +26,7 @@ function Footer() {
                 carrental@gmail.com"
                 >
                   <IconMail />
-                  &nbsp; sameersultan1001@gmail.com
+                  &nbsp; carrental@gmail.com
                 </a>
               </li>
 
@@ -37,7 +37,7 @@ function Footer() {
                   rel="noreferrer"
                   href="https://xpeedstudio.com/"
                 >
-                  Design by Muhammad Sameer
+                  Design by XpeedStudio
                 </a>
               </li>
             </ul>
@@ -45,7 +45,7 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Company</li>
               <li>
-                <a href="#home">FAQ</a>
+                <a href="#home">New York</a>
               </li>
               <li>
                 <a href="#home">Careers</a>
