@@ -18,10 +18,10 @@ function Contact() {
                 years of experience.
               </p>
               <a href="/">
-                <IconPhone /> &nbsp; (123) 456-7869
+                <IconPhone /> &nbsp; (+92) 3351332645
               </a>
               <a href="/">
-                <IconMail /> &nbsp; carrental@carmail.com
+                <IconMail /> &nbsp; sameersultan1001@gmail.com
               </a>
               <a href="/">
                 <IconLocation />
@@ -60,7 +60,7 @@ function Contact() {
               <h2>Book a car by getting in touch with us</h2>
               <span>
                 <IconPhone width={40} height={40} />
-                <h3>(123) 456-7869</h3>
+                <h3>(+92) 3351332645</h3>
               </span>
             </div>
           </div>

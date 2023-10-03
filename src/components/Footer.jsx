@@ -15,18 +15,18 @@ function Footer() {
                 have the perfect car to meet your needs.
               </li>
               <li>
-                <a href="tel:123456789">
-                  <IconPhoneCall /> &nbsp; (123) -456-789
+                <a href="tel:(+92) 3351332645">
+                  <IconPhoneCall /> &nbsp; (+92) 3351332645
                 </a>
               </li>
 
               <li>
                 <a
                   href="mailto: 
-                carrental@gmail.com"
+                sameersultan1001@gmail.com"
                 >
                   <IconMail />
-                  &nbsp; carrental@gmail.com
+                  &nbsp; sameersultan1001@gmail.com
                 </a>
               </li>
 
@@ -35,9 +35,9 @@ function Footer() {
                   style={{ fontSize: "14px" }}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://xpeedstudio.com/"
+                  href="https://portfolio-a679f.web.app/"
                 >
-                  Design by XpeedStudio
+                  Design by Muhammad Sameer Sultan
                 </a>
               </li>
             </ul>
